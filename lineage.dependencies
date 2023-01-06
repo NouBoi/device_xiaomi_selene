@@ -1,0 +1,22 @@
+[
+  {
+    "repository": "android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "android_kernel_xiaomi_selene",
+    "target_path": "kernel/xiaomi/selene"
+  },
+  {
+    "repository": "android_packages_apps_MtkFMRadio",
+    "target_path": "packages/apps/MtkFMRadio"
+  },
+  {
+    "repository": "cosmic-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-cosmic"
+  }
+]

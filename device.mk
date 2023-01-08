@@ -375,10 +375,11 @@ PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     hardware/xiaomi
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+# Runtime Resource Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlaySelene \
+    TetheringResOverlaySelene \
+    WifiResOverlaySelene
 
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
@@ -489,8 +490,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service-lazy.selene
 
 PRODUCT_PACKAGES += \
-    WifiOverlay \
-    TetheringConfigOverlay \
     android.hardware.wifi.supplicant@1.0.vendor \
     android.hardware.wifi.supplicant@1.1.vendor \
     android.hardware.wifi.supplicant@1.2.vendor \

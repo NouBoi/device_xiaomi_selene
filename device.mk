@@ -379,6 +379,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ApertureOverlay \
     FrameworksResOverlaySelene \
+	SettingsOverlaySelene \
     TetheringResOverlaySelene \
     WifiResOverlaySelene
 

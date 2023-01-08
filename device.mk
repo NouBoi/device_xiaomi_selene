@@ -378,6 +378,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Runtime Resource Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlay \
+	CarrierConfigOverlaySelene \
     FrameworksResOverlaySelene \
 	SettingsOverlaySelene \
     TetheringResOverlaySelene \

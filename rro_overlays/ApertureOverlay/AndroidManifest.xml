@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.aperture.overlay.begonia">
+    package="org.lineageos.aperture.overlay.Selene">
 
     <overlay
         android:isStatic="true"
